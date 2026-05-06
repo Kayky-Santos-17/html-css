@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Simples</title>
+    <link rel="stylesheet" href="conteudo.css">
+</head>
+
+<body>
+
+    <article id="paragrafos">
+        <h1>Paragráfos e quebras de linha</h1>
+        <p>Você pode escrever um parágrafo de qualquer jeito, basta colocar tudo dentro do par de tags
+            <span>&lt;p&gt;</span> e <span>&lt;/p&gt;</span>
+        </p>
+        <p>Se precisar quebrar o texto em algum lugar específico <br> como esse, basta adicionar a tag
+            <span>&lt;br&gt;</span>
+        </p>
+        
+        <p>Vamos adicionar alguns símbolos especiais:</p>
+        <div class="simb">
+            &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &uarr;
+        </div>
+        <p>Vamos adicionar alguns emojis: 🤙</p>
+        <p>Esse site vai ficar top! 👍 👌</p>
+    </article>
+
+    <article id="imagem">
+    <h1>Testando carga com imagens</h1>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+    <img src="html-200.png" alt="logo HTML5" class="imagem">
+    <img src="css-200.png" alt="logo CSS3" class="imagem">
+    <p>Podemos carregar imagens que estejam em outras pastas:</p>
+    <img src="Javascript-200.png" alt="logo Javascript" class="imagem" >
+    </article>
+
+    <article id="titulos">
+        <h2>Hierarquia de Titulos!</h2>
+        <p>Abaixo você pode ver um exemplo de um índice de um livro com semântica</p>
+        <h1>Entendendo Portugal</h1>
+        <h2>introdução</h2>
+        <h3>Justificativa de Temática</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatibus impedit magni similique, amet architecto
+            autem, laudantium quod hic blanditiis, quos enim laborum pariatur minima nam totam veniam? Dolorem, optio?</p>
+    </article>
+
+    <article id="formatacoes">
+        <h1>Formatações de Texto</h1>
+        <p>Podemos usar <b>negrito</b>, <i>itálico</i> ou <mark>texto marcado</mark>.</p>
+        <p>Para códigos, usamos o bloco escuro abaixo:</p>
+        <pre>
+            <code>
+                num = int(input('Digite um número'))
+                if num % 2 ==0:
+                    print(f' O número {num} é PAR')
+                else:
+                    print(f' O número é ÍMPAR')
+                print('Fim do programa')
+            </code>
+        </pre>
+        <h2>Citações</h2>
+        <p style="font-size: 8pt;">Como diria um pai de um amigo: <q> O computador é um burro muito rápido</q></p>
+    </article>
+
+    <article id="listas">
+        <h1>Trabalhando com Listas</h1>
+        <h2>Coisas que eu gosto:</h2>
+        <ul>
+            <li>Estudar Cybersecurity</li>
+            <li>Desenvolver sites</li>
+            <li>Música e Violão</li>
+        </ul>
+    </article>
+
+</body>
+
+</html>
