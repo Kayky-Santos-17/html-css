@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/kayky.ico" type="image/x-icon">
 </head>
 <body>
     <div id="interface">
@@ -30,7 +31,7 @@
             <section id="bio" class="banner">
                     <div class="content">
                         <div class="left">
-                            <img src="cachorro-meme.jpg" alt="Foto da Pessoa">
+                            <img src="imagens/cachorro-meme.jpg" alt="Foto da Pessoa">
                             <strong>Kayky Santos</strong>
                             <p>Técnico de informática, Hacker, Cybersecurity, Dev fullstack</p>
                         </div>
@@ -47,38 +48,35 @@
 
             <section id="conteudo">
                 <div id="lista">
-                    <h2>Assuntos Estudados:</h2>
-                    <ul>
+                    <div id="l-e">
+                        <h2>Assuntos Estudados:</h2>
+                        <ul>
+                            <li class="button" onmouseover= "mudaFoto('imagens/p.png')" onmouseout="mudaFoto('imagens/html-200.png')" >
+                                <a href="conteudo.html#paragrafos" target="conteudo">Parágrafos</a>
+                            </li>
                         
-                        <li class="button">
-                            <a href="conteudo.html#paragrafos" target="conteudo">Parágrafos</a>
-                        </li>
-                       
-
+                            <li class="button">
+                                <a href="conteudo.html#imagem" target="conteudo">Imagens</a>
+                            </li>
                         
-                        <li class="button">
-                            <a href="conteudo.html#imagem" target="conteudo">Imagens</a>
-                        </li>
+                            <li class="button">
+                                <a href="conteudo.html#titulos" target="conteudo">Titulos</a>
+                            </li class="button">
                         
-
+                            <li class="button">
+                                <a href="conteudo.html#formatacoes" target="conteudo">Formatações</a>
+                            </li>
                         
-                        <li class="button">
-                            <a href="conteudo.html#titulos" target="conteudo">Titulos</a>
-                        </li class="button">
-                        
-
-                        
-                        <li class="button">
-                            <a href="conteudo.html#formatacoes" target="conteudo">Formatações</a>
-                        </li>
-                       
-
-                        
-                        <li class="button">
-                            <a href="conteudo.html#listas" target="conteudo">Listas</a>
-                        </li>
-                    </ul>
+                            <li class="button">
+                                <a href="conteudo.html#listas" target="conteudo">Listas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="l-d">
+                        <img id="imagem-lista" src="imagens/html-200.png" alt="html">
+                    </div>
                 </div>
+                
             </section>
 
             <aside id="sConteudo">
@@ -86,7 +84,7 @@
             
                 </iframe>
             </aside>
-            
+            <img src="" alt="">
 
         </main>
 
@@ -94,9 +92,9 @@
 
 
         <footer id="contato">
-            <p>&copy; 2026 Kayky Santos - Desenvolvido com foco em segurança.</p>
+            <p>&copy; 2026 Kayky Santos - Primeiro portifólio pessoal.</p>
             <div class="social-links">
-                <a href="#">GitHub</a> | <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a> 
             </div>
         </footer>
     </div>
